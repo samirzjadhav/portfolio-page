@@ -19,7 +19,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 24px 48px;
+  padding: 24px 32px;
   font-weight: bold;
   font-size: 1.2rem;
 }
@@ -44,14 +44,8 @@ body {
 .navlinks {
   display: flex;
   flex-direction: row;
-}
-
-.navlinks > ul {
-  display: flex;
-  flex-direction: row;
-}
-
-.navlinks ul {
+  justify-content: center;
+  align-items: center;
   list-style: none;
 }
 
@@ -65,4 +59,13 @@ body {
 
 .navlinks .navlink:hover {
   border-color: black;
+}
+
+.view-work-button {
+  color: white;
+  background-color: black;
+  padding: 16px 32px;
+  border-radius: 8px;
+  border: 0px;
+  font-weight: bold;
 }
