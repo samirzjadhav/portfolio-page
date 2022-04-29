@@ -9,3 +9,48 @@
 body {
   font-family: "Lato", sans-serif;
 }
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 24px 48px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.navbar .brand a {
+  text-decoration: none;
+  color: black;
+}
+
+.navlinks {
+  display: flex;
+  flex-direction: row;
+}
+
+.navlinks > ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.navlinks ul {
+  list-style: none;
+}
+
+.navlinks .navlink {
+  margin-right: 24px;
+  color: black;
+  text-decoration: none;
+  transition: 1s;
+  border-bottom: 2px solid transparent;
+}
+
+.navlinks .navlink:hover {
+  border-color: black;
+}
