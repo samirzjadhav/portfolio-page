@@ -8,6 +8,7 @@
 
 body {
   font-family: "Lato", sans-serif;
+  background-color: #ddeeff;
 }
 
 .main {
@@ -68,4 +69,72 @@ body {
   border-radius: 8px;
   border: 0px;
   font-weight: bold;
+}
+
+.view-work-button:hover {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container img {
+  width: 300px;
+  margin-top: 5rem;
+}
+
+.personal-info {
+  width: 400px;
+  margin-left: 7rem;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.description {
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-top: 1rem;
+  letter-spacing: 1.6;
+}
+
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.about-me {
+  width: 30%;
+  margin-right: 5rem;
+}
+
+.about-me p {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 1.6;
+}
+
+.footer {
+  margin-left: 2rem;
+}
+
+.footer ul {
+  display: flex;
+  list-style: none;
+  margin: 1rem;
+}
+
+.footer li {
+  padding: 0.4rem;
+  border: 1px solid black;
+  margin-right: 1rem;
+  border-radius: 25px;
 }
